@@ -1,49 +1,17 @@
+@import "./reset.scss";
+@import "./mixins.scss";
+@import "./variables.scss";
+
 @import "../components/NavBar/NavBar.scss";
 
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
 * {
-	margin: 0;
+	background: $bg-color-main;
 }
-html,
-body {
-	height: 100%;
+
+h1 {
+	color: $heading-text-color;
 }
-body {
-	line-height: 1.5;
-	-webkit-font-smoothing: antialiased;
-}
-img,
-picture,
-video,
-canvas,
-svg {
-	display: block;
-	max-width: 100%;
-}
-input,
-button,
-textarea,
-select {
-	font: inherit;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	overflow-wrap: break-word;
-}
-#root,
-#__next {
-	isolation: isolate;
+
+p {
+	color: $paragraph-text-color;
 }
